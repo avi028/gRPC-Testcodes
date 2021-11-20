@@ -1,0 +1,2 @@
+/usr/bin/ar qc libMyCache_.a  CMakeFiles/MyCache_.dir/MyCache.cpp.o
+/usr/bin/ranlib libMyCache_.a

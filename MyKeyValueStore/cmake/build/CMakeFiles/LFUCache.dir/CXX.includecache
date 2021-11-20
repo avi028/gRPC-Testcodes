@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/avi/IITB/cs744/Assignment4/grpc/examples/cpp/MyKeyValueStore/LFUCache.cpp
+iostream
+-
+vector
+-
+fstream
+-
+bits/stdc++.h
+-
+pthread.h
+-
+LFUCache.h
+/home/avi/IITB/cs744/Assignment4/grpc/examples/cpp/MyKeyValueStore/LFUCache.h
+
+/home/avi/IITB/cs744/Assignment4/grpc/examples/cpp/MyKeyValueStore/LFUCache.h
+iostream
+-
+string
+-
+

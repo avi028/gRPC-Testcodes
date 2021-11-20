@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/avi/IITB/cs744/Assignment4/grpc/examples/cpp/KeyValueStore/MyCache.cpp
+iostream
+-
+vector
+-
+fstream
+-
+bits/stdc++.h
+-
+pthread.h
+-
+MyCache.h
+/home/avi/IITB/cs744/Assignment4/grpc/examples/cpp/KeyValueStore/MyCache.h
+
+/home/avi/IITB/cs744/Assignment4/grpc/examples/cpp/KeyValueStore/MyCache.h
+iostream
+-
+string
+-
+configReader.h
+/home/avi/IITB/cs744/Assignment4/grpc/examples/cpp/KeyValueStore/configReader.h
+storage.h
+/home/avi/IITB/cs744/Assignment4/grpc/examples/cpp/KeyValueStore/storage.h
+
+/home/avi/IITB/cs744/Assignment4/grpc/examples/cpp/KeyValueStore/configReader.h
+iostream
+-
+string
+-
+
+/home/avi/IITB/cs744/Assignment4/grpc/examples/cpp/KeyValueStore/storage.h
+iostream
+-
+string
+-
+vector
+-
+

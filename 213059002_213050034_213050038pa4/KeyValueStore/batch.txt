@@ -1,0 +1,15 @@
+PUT k1 v1
+PUT k2 v2
+PUT k3 v3
+PUT k4 v4
+PUT k34 v1
+PUT k12 v1
+PUT k23 v2
+PUT k31 v3
+PUT k43 v4
+PUT k34 v1
+PUT k13 v1
+PUT k24 v2
+PUT k35 v3
+PUT k46 v4
+PUT k34 v1

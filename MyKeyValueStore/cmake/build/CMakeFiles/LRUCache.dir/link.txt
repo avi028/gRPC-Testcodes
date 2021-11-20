@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLRUCache.a  CMakeFiles/LRUCache.dir/LRUCache.cpp.o
+/usr/bin/ranlib libLRUCache.a

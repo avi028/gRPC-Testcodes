@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package testGrpc;
+
+message requesthello{
+    string message=1;   
+}
+
+message requestbye{
+    string message=1;
+}
+
+message response{
+    string message=1;
+}
+
+service testGrpcAsync{
+    rpc hye (requesthello) returns (response) {}
+    rpc bye (requestbye) returns (response) {}
+}
+

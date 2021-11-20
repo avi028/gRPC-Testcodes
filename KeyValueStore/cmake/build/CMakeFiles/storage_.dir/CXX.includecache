@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/avi/IITB/cs744/Assignment4/grpc/examples/cpp/KeyValueStore/storage.cc
+iostream
+-
+vector
+-
+fstream
+-
+string
+-
+bits/stdc++.h
+-
+utility
+-
+pthread.h
+-
+sys/stat.h
+-
+map
+-
+storage.h
+/home/avi/IITB/cs744/Assignment4/grpc/examples/cpp/KeyValueStore/storage.h
+
+/home/avi/IITB/cs744/Assignment4/grpc/examples/cpp/KeyValueStore/storage.h
+iostream
+-
+string
+-
+vector
+-
+

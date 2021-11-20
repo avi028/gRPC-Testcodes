@@ -1,0 +1,39 @@
+syntax = "proto3";
+
+package keyvaluestore;
+
+// A simple key-value storage service
+service storeManager {
+  // Provides a value for each key request
+  rpc GET ( requestKey) returns ( responseValue) {}
+  rpc DEL ( requestKey) returns ( responseValue) {}
+  rpc PUT ( requestKeyValue) returns ( responseStatus) {}
+}
+
+enum statusValue{
+  DEAULT  = 0;
+  UPDATED = 100;
+  SUCCESS = 200;
+  FAILURE = 400;
+}
+
+// The request message containing the key
+message requestKey {
+  string key = 1;
+}
+
+// The response message containing the value associated with the key
+
+message responseValue {
+  statusValue status = 1;
+    string value = 2;
+}
+
+message requestKeyValue {
+  string key = 1;
+  string value = 2;
+}
+
+message responseStatus{
+  statusValue status = 1;
+}
